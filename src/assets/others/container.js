@@ -37,7 +37,7 @@ const minimem = [
 		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/team-leader.jpg?updatedAt=1783525785940",
 	},
 	{
-		name: "Blondie",
+		name: "Tatenda Zano",
 		title: "Dancer",
 		text: "Passionate dancer, enjoys her work.",
 		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/blondie.jpg?updatedAt=1783525782086",
@@ -49,10 +49,10 @@ const minimem = [
 		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/smiley.jpg?updatedAt=1783525788269",
 	},
 	{
-		name: "Beard",
-		title: "Drummer",
+		name: "Gilbert Farai Mhikuro",
+		title: "Choreographer and Trainer",
 		text: "Skillfull artist, unmatched in his craft.",
-		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/beard.jpg?updatedAt=1783525778202",
+		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/IMG-20260708-WA0062.jpg",
 	},
 ];
 const mems = [
@@ -75,10 +75,10 @@ const mems = [
 		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/smiley.jpg?updatedAt=1783525788269",
 	},
 	{
-		name: "Beard",
-		title: "Drummer",
+		name: "Gilbert Farai Mhikuro",
+		title: "Choreographer and Trainer",
 		text: "Skillfull artist, unmatched in his craft.",
-		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/beard.jpg?updatedAt=1783525778202",
+		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/IMG-20260708-WA0062.jpg",
 	},
 ];
 
