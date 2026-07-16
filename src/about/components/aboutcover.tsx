@@ -2,12 +2,17 @@ import cover from "../../assets/others/about.jpg";
 
 function Aboutcover() {
 	return (
-		<div>
+		<div className="relative h-[45vh] min-h-[320px] w-full overflow-hidden">
 			<img
-				className="mx-auto block shadow-[-0_25px_15px_-3px_rgba(0,0,0,0.7),25px_0_15px_-3px_rgba(0,0,0,0.7)]"
+				className="absolute inset-0 h-full w-full object-cover"
 				src={cover}
-				alt="cover"
+				alt="Dapuraunanzva Arts Ensemble performing"
 			/>
+			<div className="absolute inset-0 bg-charcoal/60" />
+			<div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-parchment">
+				<p className="mb-3 font-body text-sm uppercase tracking-[0.3em] text-marigold">Our Story</p>
+				<h1 className="font-display text-4xl font-semibold uppercase sm:text-5xl"> About Us</h1>
+			</div>
 		</div>
 	);
 }

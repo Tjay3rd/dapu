@@ -7,16 +7,12 @@ function Form() {
 		event.preventDefault();
 		setResult("Sending....");
 		const formData = new FormData(event.target as HTMLFormElement);
-
 		formData.append("access_key", "87ac9d31-caee-4879-8686-0a5fc0da8d75");
-
 		const response = await fetch("https://api.web3forms.com/submit", {
 			method: "POST",
 			body: formData,
 		});
-
 		const data = await response.json();
-
 		if (data.success) {
 			setResult("Form Submitted Successfully");
 			alert("Message Submitted Successfully");
@@ -28,44 +24,47 @@ function Form() {
 	};
 
 	return (
-		<div>
-			<h1 className="uppercase ml-4 mt-10 text-3xl font-bold">send us a message</h1>
-			<form onSubmit={onSubmit} className="m-5 w-screen flex flex-col items-start gap-2.5">
-				<label className="text-xl flex flex-col w-screen">
+		<section className="mx-auto max-w-2xl px-5 py-14 sm:px-6">
+			<h2 className="mb-8 font-display text-2xl font-bold       uppercase text-ink">Send Us A Message</h2>
+			<form onSubmit={onSubmit} className="flex w-full flex-col items-start gap-5">
+				<label className="flex w-full flex-col font-body            text-base text-ink">
 					Your Name
 					<input
-						className="text-xl rounded-md my-2.5 bg-gray-600/70 w-3/4 h-13 font-xl pl-4"
+						className="mt-2 h-13 w-full rounded-md border border-ink/15 bg-parchment px-4 text-lg text-ink placeholder:text-ink/40 focus:border-clay focus:outline-none"
 						type="text"
 						name="name"
-						placeholder="Enter your name"
+						placeholder="John Doe"
 						required
 					/>
 				</label>
-				<label className="text-xl flex flex-col w-screen">
+				<label className="flex w-full flex-col font-body text-base text-ink">
 					Your Email
 					<input
-						className="text-xl rounded-md my-2.5 bg-gray-600/70 w-3/4 h-13 font-xl pl-4"
+						className="mt-2 h-13 w-full rounded-md border border-ink/15 bg-parchment px-4 text-lg text-ink placeholder:text-ink/40 focus:border-clay focus:outline-none"
 						type="email"
 						name="email"
-						placeholder="Enter your email"
+						placeholder="exampleJaneDoe@email.com"
 						required
 					/>
 				</label>
-				<label className="text-xl  flex flex-col w-screen">
-					Write your message below
+				<label className="flex w-full flex-col font-body text-base text-ink">
+					Write Your Message Below
 					<textarea
-						className="text-xl rounded-md my-2.5 bg-gray-600/70 w-3/4 h-30 font-xl pl-4"
+						className="mt-2 h-32 w-full rounded-md border border-ink/15 bg-parchment px-4 py-3 text-lg text-ink placeholder:text-ink/40 focus:border-clay     focus:outline-none"
 						name="message"
-						placeholder="Enter your message"
+						placeholder="We as John and Jane Doe are the most mysterious and secretive couple in the world. No one can identify us and yet we are famous. Despite our uncanny fame, we would love to attend one of your shows as we find your work highly entertaining..."
 						required
 					></textarea>
 				</label>
-				<button className="bg-black text-white text-lg uppercase mr-15 my-4 p-4 rounded-lg" type="submit">
-					Submit now
+				<button
+					className="rounded-lg bg-ink px-6 py-4 font-body text-sm font-semibold uppercase tracking-wide text-parchment transition-transform hover:scale-105"
+					type="submit"
+				>
+					Submit Now
 				</button>
-				<p>{result}</p>
+				{result && <p className="font-body text-sm text-ink/70">{result}</p>}
 			</form>
-		</div>
+		</section>
 	);
 }
 

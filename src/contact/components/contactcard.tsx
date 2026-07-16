@@ -1,24 +1,23 @@
-import { contacts } from '../../assets/others/container.js'
+import { contacts } from "../../assets/others/container.js";
 
-
-function Contactcard () {
-
-  return (
-    <>
-    <h1 className='text-2xl font-bold uppercase mx-7'>Get in touch with us</h1>
-    <div className='flex flex-col h-screen'>
-      {contacts.map((card, index) => {
-        return(
-          <div className='shadow-[0_0_10px_rgba(0,0,0,0.6)] flex flex-col flex-1 items-center m-7 pt-10 text-center text-xl' key={index}>
-            <img className='w-15 h-15' src={card.icon} alt="icon" />
-            <p className='font-medium'>{card.title}</p>
-            <p>{card.content}</p>
-          </div>
-        )})
-      }
-    </div>
-    </>
-  )
+function Contactcard() {
+	return (
+		<section className="mx-auto max-w-6xl px-5 py-14 sm:px-6">
+			<h2 className="mb-8 font-display text-2xl font-bold uppercase text-ink">Get In Touch With Us</h2>
+			<div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+				{contacts.map((card, index) => (
+					<div
+						key={index}
+						className="flex flex-col items-center rounded-lg bg-parchment p-8 text-center shadow-sm transition-shadow hover:shadow-md"
+					>
+						<img className="mb-4 h-12 w-12" src={card.icon} alt="" />
+						<p className="font-display text-lg font-bold text-ink">{card.title}</p>
+						<p className="font-body text-base text-ink/70">{card.content}</p>
+					</div>
+				))}
+			</div>
+		</section>
+	);
 }
 
 export default Contactcard;

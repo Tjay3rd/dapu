@@ -85,7 +85,7 @@ const mems = [
 const contacts = [
 	{ icon: home, title: "Physical Address", content: "Courthold Theatre CBD Mutare, ZW" },
 	{ icon: telephone, title: "Phone Number", content: "+263 77 300 0980" },
-	{ icon: email, title: "Email Address", content: "dapuraunanzva@gmail.com" },
+	{ icon: email, title: "Email Address", content: "dapuraunanzvagroup@gmail.com" },
 ];
 
 export { criterion, minimem, mems, contacts };

@@ -1,16 +1,15 @@
-import Contactcard from './components/contactcard';
-import Form from './components/form';
-import Contactcover from './components/contactcover';
+import Contactcard from "./components/contactcard";
+import Form from "./components/form";
+import Contactcover from "./components/contactcover";
 
-
-function Contact () {
-  return (
-    <>
-    <Contactcover/>
-    <Contactcard/>
-     <Form/> 
-    </>
-  )
+function Contact() {
+	return (
+		<>
+			<Contactcover />
+			<Contactcard />
+			<Form />
+		</>
+	);
 }
 
-export default Contact
+export default Contact;
