@@ -39,14 +39,14 @@ const minimem = [
 	{
 		name: "Tatenda Zano",
 		title: "Dancer",
-		text: "Passionate dancer, enjoys her work.",
-		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/blondie.jpg?updatedAt=1783525782086",
+		text: "Just a girl who found her voice in drums and her freedom in dance. Hounoring where I come from and sharing it with the world🥰.",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260708-WA0067.jpg",
 	},
 	{
-		name: "Smiley",
-		title: "Dancer",
+		name: "Shellon Saungweme",
+		title: "Dancer and Vocalist",
 		text: "Creative and vibrant personality.",
-		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/smiley.jpg?updatedAt=1783525788269",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0024.jpg",
 	},
 	{
 		name: "Gilbert Farai Mhikuro",
@@ -63,16 +63,16 @@ const mems = [
 		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/team-leader.jpg?updatedAt=1783525785940",
 	},
 	{
-		name: "Blondie",
+		name: "Tatenda Zano",
 		title: "Dancer",
-		text: "Passionate dancer, enjoys her work.",
-		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/blondie.jpg?updatedAt=1783525782086",
+		text: "Just a girl who found her voice in drums and her freedom in dance. Hounoring where I come from and sharing it with the world🥰.",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260708-WA0067.jpg",
 	},
 	{
-		name: "Smiley",
-		title: "Dancer",
+		name: "Shellon Saungweme",
+		title: "Dancer and Vocalist",
 		text: "Creative and vibrant personality.",
-		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/smiley.jpg?updatedAt=1783525788269",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0024.jpg",
 	},
 	{
 		name: "Gilbert Farai Mhikuro",
@@ -80,10 +80,88 @@ const mems = [
 		text: "Skillfull artist, unmatched in his craft.",
 		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/IMG-20260708-WA0062.jpg",
 	},
+	{
+		name: "Charity, 'Baby Girl' ",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/IMG-20260708-WA0062.jpg",
+	},
+	{
+		name: "Tadiwa",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260710-WA0004.jpg",
+	},
+	{
+		name: "Esnath Rutendo Pegara",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260708-WA0059.jpg",
+	},
+	{
+		name: "Patience Ruhukwa",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0027.jpg",
+	},
+	{
+		name: "Christian Nendanga",
+		title: "Dancer and Disciplinarian",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0026.jpg",
+	},
+	{
+		name: "Isabel Chigamba",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260708-WA0064.jpg",
+	},
+	{
+		name: "Promise Munjoma",
+		title: "Dancer, Vocalist and Percussionist",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0031.jpg",
+	},
+	{
+		name: "Nason 'Jahwa' Chiweshe",
+		title: "Dancer and Media Manager",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0029.jpg",
+	},
+	{
+		name: "Takunda Bvuweyi",
+		title: "Drummer and Percussionist",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0025.jpg",
+	},
+	{
+		name: "Oswald 'Kiddo' Nhambu",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0028.jpg",
+	},
+	{
+		name: "Emily Madhowo",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0032.jpg",
+	},
+	{
+		name: "Leonard Kadiramwando",
+		title: "Trainer and Chief Drummist",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0023.jpg",
+	},
+	{
+		name: "Clarence Noku Mhikuro",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0030.jpg",
+	},
 ];
 
 const contacts = [
-	{ icon: home, title: "Physical Address", content: "Courthold Theatre CBD Mutare, ZW" },
+	{ icon: home, title: "Physical Address", content: " Sakubva Beit Hall, Mutare, ZW" },
 	{ icon: telephone, title: "Phone Number", content: "+263 77 300 0980" },
 	{ icon: email, title: "Email Address", content: "dapuraunanzvagroup@gmail.com" },
 ];
