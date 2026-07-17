@@ -4,7 +4,7 @@ import emailicon from "../../assets/others/email.svg";
 import facebook from "../../assets/others/faceblack.svg";
 import instagram from "../../assets/others/instablack.svg";
 import youtube from "../../assets/others/youtublack.svg";
-import telegram from "../../assets/others/teleblack.svg";
+import tiktok from "../../assets/others/tiktok.svg";
 import x from "../../assets/others/xblack.svg";
 import whatsapp from "../../assets/others/whatsblack.svg";
 
@@ -15,11 +15,11 @@ interface SocialLink {
 }
 
 const socialLinks: SocialLink[] = [
-	{ src: facebook, alt: "Facebook", href: "" },
-	{ src: instagram, alt: "Instagram", href: "" },
-	{ src: youtube, alt: "YouTube", href: "" },
-	{ src: telegram, alt: "Telegram", href: "" },
-	{ src: x, alt: "X", href: "" },
+	{ src: facebook, alt: "Facebook", href: "https://www.facebook.com/Dapuraunanzva-Arts-Ensemble" },
+	{ src: instagram, alt: "Instagram", href: "https://www.instagram.com/dapuraunanzva" },
+	{ src: youtube, alt: "YouTube", href: "https://www.youtube.com/@dapuraunanzvaa" },
+	{ src: tiktok, alt: "TikTok", href: "https://www.tiktok.com/@dapuraunanzva" },
+	{ src: x, alt: "X", href: "https://x.com/dapuraunanzva" },
 	{
 		src: whatsapp,
 		alt: "WhatsApp",

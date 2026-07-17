@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const heroImages = [
-	"https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/home1.jpg",
-	"https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/home2.jpg",
-	"https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/home3.jpg",
+	" https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/hero_images/home1.jpg ",
+	"https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/hero_images/home2.jpg ",
+	" https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/hero_images/home3.jpg ",
 	// add more image URLs here — nothing else needs to change
 ];
 
