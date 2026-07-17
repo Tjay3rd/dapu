@@ -158,6 +158,18 @@ const mems = [
 		text: "Bio",
 		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0030.jpg",
 	},
+	{
+		name: "Daina Nhau",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260717-WA0006.jpg",
+	},
+	{
+		name: "Panashe Mumanyi",
+		title: "Dancer",
+		text: "Bio",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/20250629_06365.jpg",
+	},
 ];
 
 const contacts = [
