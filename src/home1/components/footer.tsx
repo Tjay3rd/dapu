@@ -15,7 +15,7 @@ interface SocialLink {
 }
 
 const socialLinks: SocialLink[] = [
-	{ src: facebook, alt: "Facebook", href: "https://www.facebook.com/Dapuraunanzva-Arts-Ensemble" },
+	{ src: facebook, alt: "Facebook", href: "https://www.facebook.com/profile.php?id=61591900502477" },
 	{ src: instagram, alt: "Instagram", href: "https://www.instagram.com/dapuraunanzva" },
 	{ src: youtube, alt: "YouTube", href: "https://www.youtube.com/@dapuraunanzvaa" },
 	{ src: tiktok, alt: "TikTok", href: "https://www.tiktok.com/@dapuraunanzva" },
