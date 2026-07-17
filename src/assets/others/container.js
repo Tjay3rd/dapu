@@ -84,7 +84,7 @@ const mems = [
 		name: "Charity, 'Baby Girl' ",
 		title: "Dancer",
 		text: "Bio",
-		image: "https://ik.imagekit.io/dapuraunanzva01/dapuraunanzva_images/p_pics/IMG-20260708-WA0062.jpg",
+		image: "https://ik.imagekit.io/avlsp9ggi/Dapuraunanzva/profile_pictures/IMG-20260709-WA0035.jpg",
 	},
 	{
 		name: "Tadiwa",
