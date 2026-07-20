@@ -34,7 +34,7 @@ const Header = () => {
 					</nav>
 
 					<button onClick={() => setIsOpen(true)} aria-label="Open menu" className="lg:hidden">
-						<img className="w-9" src={openmenu} alt="" />
+						<img className="w-9 text-marigold" src={openmenu} alt="" />
 					</button>
 				</div>
 			</header>
