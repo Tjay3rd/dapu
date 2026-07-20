@@ -34,7 +34,11 @@ const Header = () => {
 					</nav>
 
 					<button onClick={() => setIsOpen(true)} aria-label="Open menu" className="lg:hidden">
-						<img className="w-9 text-marigold" src={openmenu} alt="" />
+						<img
+							className="w-9 invert-[68%] sepia-[64%] saturate-[1195%] hue-rotate-[357deg] brightness-[102%] contrast-[104%]"
+							src={openmenu}
+							alt=""
+						/>
 					</button>
 				</div>
 			</header>
